@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="form-container">
+    <h1>Join the Fun!</h1>
+    <p class="subtitle">Register your team and choose your competitions</p>
+
+    <form id="form">
+      <div class="section">
+        <label>Team Members (1 to 4):</label>
+        <div id="memberInputs">
+          <input type="text" name="member" placeholder="Participant 1 Name" required />
+        </div>
+        <button type="button" id="addMemberBtn">+ Add Member</button>
+      </div>
+
+      <div class="section">
+        <label>Select Competitions:</label>
+        <div class="checkboxes">
+          <label><input type="checkbox" name="competition" value="Brainwave" /> Brainwave</label>
+          <label><input type="checkbox" name="competition" value="Hackathon" /> Hackathon</label>
+          <label><input type="checkbox" name="competition" value="Debate" /> Debate</label>
+          <label><input type="checkbox" name="competition" value="Music Jam" /> Music Jam</label>
+          <label><input type="checkbox" name="competition" value="Theatre of Thoughts" /> Theatre of Thoughts</label>
+          <label><input type="checkbox" name="competition" value="Rhythm & Rhyme" />Rhythm & Rhyme</label>
+        </div>
+      </div>
+
+      <button type="submit" class="submit-btn">Submit Registration</button>
+      <p id="message" class="message"></p>
+    </form>
+  </div>
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>

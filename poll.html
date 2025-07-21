@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventFlow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="Nav_Bar">
+            <ul>
+                <img class="Logo" src="image/logo.png" alt="Logo">
+                <a href="home.html">Home</a>
+                <a href="event.html">Events</a>
+                <a href="">Event Scheduler</a>
+                
+            </ul>
+        </nav>
+         <form action="#" class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="bx bx-search"></i></button>
+        </form>
+    </header>
+
+    <h2 class="PollHeading">You bring the hype,we bring the event! <br> Pick what's next</h2>
+    <div class="poll-container">
+      <h2 style="color: white;">Which event deserve the spotlight next?</h2>
+
+      <div class="option" onclick="vote(0)">Creative Writing</div>
+      <div class="option" onclick="vote(1)">Robo War</div>
+      <div class="option" onclick="vote(2)">Gaming Tournament</div>
+      <div class="option" onclick="vote(3)">Poster Presentation</div>
+      <div id="results" class="results"></div>
+      
+    </div>
+    
+
+    <script src="script1.js"></script>
+</body>
+</html>
